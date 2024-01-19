@@ -12,9 +12,60 @@ public class LogicalOperators
         boolean result1 = (num1 > num2 || num3 < num4);
         boolean result2 = (num1 > num2 != num3 < num4);
         boolean result3 = (num1 > num2 ^ num3 < num4);
-        System.out.println(result);
-        System.out.println(result1);
-        System.out.println(result2);
+        System.out.println(result); // false
+        System.out.println(result1); // true
+        System.out.println(result2); //true
+        System.out.println(result3); // true
 
+        //conditional statements
+       if(num1>num2 && num3>num4) // false AND false = false
+       {
+        System.out.println("correct");
+       }
+       else{
+        System.out.println("wrong"); // wrong
+       }
+
+       // This is the condition where the "IF" statement is executed
+       String Name = "Mr Stanley Congo";
+       if( Name == "Mr Stanley Congo")
+       {
+        System.out.println("He is the Assistant Headmaster Administration "); // this block will be executed because it is true
+       }
+       else{
+        System.out.println("Not recognized");
+       }
+               
+     // This is the condition where the "ELSE " statement is executed
+     //String Name = "Mr Stanley Congo";
+       if( Name != "Mr Stanley Congo")
+       {
+        System.out.println("He is the Assistant Headmaster Administration "); // this block will be executed because it is true
+       }
+       else if(Name == "Mr Stanley Congo")
+       {
+        System.out.println("She is the now the School Mistress");
+       }
+       else
+       {
+        System.out.println("Not recognized");
+       }
+
+
+         // This is the condition where the "ELSE " statement is executed
+
+       if( Name != "Mr Stanley Congo")
+       {
+        System.out.println("He is the Assistant Headmaster Administration "); // this block will be executed because it is true
+       }
+       else if(Name == "Miss Alexander")
+       {
+        System.out.println("She is the now the School Mistress");
+       }
+       else
+       {
+        System.out.println("Not recognized");
+       }   
+    
     }
 }

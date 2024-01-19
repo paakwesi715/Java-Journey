@@ -17,19 +17,19 @@ public class Hello
          String FirstName = "King";
          String LastName = "Mart";
 
-        System.out.println(Product);
-        System.out.println(--Product);
-        System.out.println(Sum);
-        System.out.println(++Sum);
-        System.out.println(FirstName+" "+LastName);
+        System.out.println(Product); // 20
+        System.out.println(--Product); // 19
+        System.out.println(Sum); // 12 
+        System.out.println(++Sum); // 13
+        System.out.println(FirstName+" "+LastName); //King Mart
 
         //Type convention and casting
         int num5 = 10;
         float num6 = (float) num5;
         double num7 = 91.0;
-        byte num8 = (byte) num7;
-        System.out.println(num6); 
-        System.out.println(num7);
+        //byte num8 = (byte) num7;
+        System.out.println(num6);  // 10.0
+        System.out.println(num7); // 91.0
 
         // increasing a number by a specific no. of digits
 
@@ -39,10 +39,10 @@ public class Hello
         int num3 = 50 ; 
         num3 --; // decrement
 
-        System.out.println(num1);
-        System.out.println(num2);
-        System.out.println(num5); 
-        System.out.println(num3);
+        System.out.println(num1); // 11
+        System.out.println(num2); // 7
+        System.out.println(num5); // 49
+        System.out.println(num3); // 49
 
         //relational operators
 
@@ -54,10 +54,10 @@ public class Hello
         boolean result2 = (a >= b);
         boolean result3 = (a == b);
         
-        System.out.println(result);
-        System.out.println(result1);
-        System.out.println(result2);
-        System.out.println(result3);
+        System.out.println(result); // false
+        System.out.println(result1); //true
+        System.out.println(result2); //false
+        System.out.println(result3); //false
 
     }
 }
