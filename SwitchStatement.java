@@ -1,7 +1,7 @@
 public class SwitchStatement {
     public static void main(String [] args){
         // the following cases will be executed only when the input variable matches any of the cases except for default case
-        // the arrow key"->" can be used in place of the break keywowrd
+        // the arrow key"->" can be used in place of the "break" keyword
         int num1 = 1;
         String day[] = {"Monday", "Tuesday", "Wednesday", };
         switch(num1) 
